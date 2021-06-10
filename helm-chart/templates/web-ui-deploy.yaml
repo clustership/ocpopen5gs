@@ -75,6 +75,7 @@ spec:
         sidecar.istio.io/inject: "true"
       labels:
         epc-mode: webui
+        maistra.io/expose-route: 'true'
     spec:    
       serviceAccountName: 5gcore
       containers:
